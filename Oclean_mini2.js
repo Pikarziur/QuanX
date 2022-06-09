@@ -3,7 +3,7 @@
 请先按下述方法进行配置，进入微信小程序"欧可林商城"并点击"每日任务"，若弹出"首次写入欧可林商城 Cookie 成功"即可正常食用，其他提示或无提示请发送日志信息至 issue。
 到 cron 设定时间自动签到时，若弹出"欧可林商城 - 签到成功"即完成签到，其他提示或无提示请发送日志信息至 issue。
 
-注意："欧可林" app 签到与微信小程序"欧可林商城"签到共享（一致），即 Oclean.js 与 Oclean_mini.js 任取一个使用即可，暂未验证两个脚本中账户信息哪个过期快，不过猜测 app 签到会更持久，而新用户推荐使用小程序先进行注册，会有额外积分奖励。
+注意："欧可林" app 签到与微信小程序"欧可林商城"签到共享（一致），即 Oclean.js 与 Oclean_mini22.js 任取一个使用即可，暂未验证两个脚本中账户信息哪个过期快，不过猜测 app 签到会更持久，而新用户推荐使用小程序先进行注册，会有额外积分奖励。
 
 ⚠️免责声明：
 1. 此脚本仅用于学习研究，不保证其合法性、准确性、有效性，请根据情况自行判断，本人对此不承担任何保证责任。
@@ -18,16 +18,16 @@ Author：zZPiglet
 
 Quantumult X:
 [task_local]
-1 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini.js, tag=欧可林商城
+1 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini22.js, tag=欧可林商城
 
 [rewrite_local]
-^https:\/\/mall\.oclean\.com\/API\/VshopProcess\.ashx\?action=TaskHome&clientType=5&client=5&openId= url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini.js
+^https:\/\/mall\.oclean\.com\/API\/VshopProcess\.ashx\?action=TaskHome&clientType=5&client=5&openId= url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini22.js
 
 
 Surge & Loon:
 [Script]
-cron "1 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini.js
-http-request ^https:\/\/mall\.oclean\.com\/API\/VshopProcess\.ashx\?action=TaskHome&clientType=5&client=5&openId= script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini.js
+cron "1 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini22.js
+http-request ^https:\/\/mall\.oclean\.com\/API\/VshopProcess\.ashx\?action=TaskHome&clientType=5&client=5&openId= script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini22.js
 
 All app:
 [mitm]
@@ -79,29 +79,29 @@ function GetCookie() {
 async function Checkin() {
     let subTitle = ''
     let detail = ''
-    const oclean_mini = {
-        url: CheckinURL + $cmp.read("Oclean_mini")
+    const Oclean_mini2 = {
+        url: CheckinURL + $cmp.read("Oclean_mini2")
     }
-    const oclean_mini_draw = {
-        url: DrawURL + $cmp.read("Oclean_mini")
+    const Oclean_mini2_draw = {
+        url: DrawURL + $cmp.read("Oclean_mini2")
     }
     await new Promise((resolve, reject) => {
-        $cmp.get(oclean_mini_draw, function(error, response, data) {
+        $cmp.get(Oclean_mini2_draw, function(error, response, data) {
             if (!error) {
                 const result = JSON.parse(data)
                 if (result.Status == "OK" || result.Data.AwardGrade) {
-                    $cmp.log("Oclean_mini draw succeed response : \n" + result.Data.Msg + '：' + result.Data.AwardSubName + '\n一等奖可能是未中奖。。')
+                    $cmp.log("Oclean_mini2 draw succeed response : \n" + result.Data.Msg + '：' + result.Data.AwardSubName + '\n一等奖可能是未中奖。。')
                 } else {
-                    $cmp.log("Oclean_mini draw failed response : \n" + JSON.stringify(result))
+                    $cmp.log("Oclean_mini2 draw failed response : \n" + JSON.stringify(result))
                 }
             } else {
-                $cmp.log("Oclean_mini draw failed response : \n" + error)
+                $cmp.log("Oclean_mini2 draw failed response : \n" + error)
             }
             resolve()
         })
     })
     await new Promise((resolve, reject) => { 
-        $cmp.get(oclean_mini, function(error, response, data) {
+        $cmp.get(Oclean_mini2, function(error, response, data) {
             if (!error) {
                 const result = JSON.parse(data)
                 if (result.Status == "OK" && result.Code == 1) {
@@ -119,12 +119,12 @@ async function Checkin() {
                 } else {
                     subTitle += '未知错误，详情请见日志。'
                     detail += result.Message
-                    $cmp.log("Oclean_mini failed response : \n" + JSON.stringify(result))
+                    $cmp.log("Oclean_mini2 failed response : \n" + JSON.stringify(result))
                 }
             } else {
                 subTitle += '签到接口请求失败，详情请见日志。'
                 detail += error
-                $cmp.log("Oclean_mini failed response : \n" + error)
+                $cmp.log("Oclean_mini2 failed response : \n" + error)
             }
             $cmp.notify(CookieName, subTitle, detail)
             resolve()
