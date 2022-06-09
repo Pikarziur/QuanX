@@ -3,7 +3,7 @@
 请先按下述方法进行配置，进入"欧可林"并点击"活动"，若弹出"首次写入欧可林 Cookie 成功"即可正常食用，其他提示或无提示请发送日志信息至 issue。
 到 cron 设定时间自动签到时，若弹出"欧可林 - 签到成功"即完成签到，其他提示或无提示请发送日志信息至 issue。
 
-注意："欧可林" app 签到与微信小程序"欧可林商城"签到共享（一致），即 Oclean.js 与 Oclean_mini.js 任取一个使用即可，暂未验证两个脚本中账户信息哪个过期快，不过猜测 app 签到会更持久，而新用户推荐使用小程序先进行注册，会有额外积分奖励。
+注意："欧可林" app 签到与微信小程序"欧可林商城"签到共享（一致），即 Oclean2.js 与 Oclean2_mini.js 任取一个使用即可，暂未验证两个脚本中账户信息哪个过期快，不过猜测 app 签到会更持久，而新用户推荐使用小程序先进行注册，会有额外积分奖励。
 
 ⚠️免责声明：
 1. 此脚本仅用于学习研究，不保证其合法性、准确性、有效性，请根据情况自行判断，本人对此不承担任何保证责任。
@@ -18,26 +18,26 @@ Author：zZPiglet
 
 Quantumult X:
 [task_local]
-1 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean.js, tag=欧可林
+1 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean2/Oclean2.js, tag=欧可林
 
 [rewrite_local]
-^https:\/\/mall\.oclean\.com\/API\/VshopProcess\.ashx$ url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean.js
+^https:\/\/mall\.Oclean2\.com\/API\/VshopProcess\.ashx$ url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean2/Oclean2.js
 
 
 Surge & Loon:
 [Script]
-cron "1 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean.js
-http-request ^https:\/\/mall\.oclean\.com\/API\/VshopProcess\.ashx$ script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean.js
+cron "1 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean2/Oclean2.js
+http-request ^https:\/\/mall\.Oclean2\.com\/API\/VshopProcess\.ashx$ script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean2/Oclean2.js
 
 All app:
 [mitm]
-hostname = mall.oclean.com
+hostname = mall.Oclean2.com
 
 获取完 Cookie 后可不注释 rewrite / hostname，Cookie 更新时会弹窗。若因 MitM 导致该软件网络不稳定，可注释掉 hostname。
 */
 
-const CheckinURL = 'https://mall.oclean.com/API/VshopProcess.ashx'
-const DrawURL = 'https://mall.oclean.com/api/VshopProcess.ashx?action=ActivityDraw'
+const CheckinURL = 'https://mall.Oclean2.com/API/VshopProcess.ashx'
+const DrawURL = 'https://mall.Oclean2.com/api/VshopProcess.ashx?action=ActivityDraw'
 const CookieName = '欧可林'
 const CookieKey = 'Oclean2'
 const reg = /Shop-Member=(\S*);/
@@ -79,37 +79,37 @@ function GetCookie() {
 async function Checkin() {
     let subTitle = ''
     let detail = ''
-    const oclean = {
+    const Oclean2 = {
         url: CheckinURL,
         headers: {
-            "Cookie": 'Shop-Member=' + $cmp.read("Oclean"),
+            "Cookie": 'Shop-Member=' + $cmp.read("Oclean2"),
         },
         body: 'action=SignIn&SignInSource=2&clientType=2'
     }
-    const oclean_draw = {
+    const Oclean2_draw = {
         url: DrawURL,
         headers: {
-            "Cookie": 'Shop-Member=' + $cmp.read("Oclean"),
+            "Cookie": 'Shop-Member=' + $cmp.read("Oclean2"),
         },
         body: 'ActivityId=9&clientType=2'
     }
     await new Promise((resolve, reject) => {
-        $cmp.post(oclean_draw, function(error, response, data) {
+        $cmp.post(Oclean2_draw, function(error, response, data) {
             if (!error) {
                 const result = JSON.parse(data)
                 if (result.Status == "OK" || result.Data.AwardGrade) {
-                    $cmp.log("Oclean draw succeed response : \n" + result.Data.Msg + '：' + result.Data.AwardSubName + '\n一等奖可能是未中奖。。')
+                    $cmp.log("Oclean2 draw succeed response : \n" + result.Data.Msg + '：' + result.Data.AwardSubName + '\n一等奖可能是未中奖。。')
                 } else {
-                    $cmp.log("Oclean draw failed response : \n" + JSON.stringify(result))
+                    $cmp.log("Oclean2 draw failed response : \n" + JSON.stringify(result))
                 }
             } else {
-                $cmp.log("Oclean draw failed response : \n" + error)
+                $cmp.log("Oclean2 draw failed response : \n" + error)
             }
             resolve()
         })
     })
     await new Promise((resolve, reject) => { 
-        $cmp.post(oclean, function(error, response, data) {
+        $cmp.post(Oclean2, function(error, response, data) {
             if (!error) {
                 const result = JSON.parse(data)
                 if (result.Status == "OK" && result.Code == 1) {
@@ -127,12 +127,12 @@ async function Checkin() {
                 } else {
                     subTitle += '未知错误，详情请见日志。'
                     detail += result.Message
-                    $cmp.log("Oclean failed response : \n" + JSON.stringify(result))
+                    $cmp.log("Oclean2 failed response : \n" + JSON.stringify(result))
                 }
             } else {
                 subTitle += '签到接口请求失败，详情请见日志。'
                 detail += error
-                $cmp.log("Oclean failed response : \n" + error)
+                $cmp.log("Oclean2 failed response : \n" + error)
             }
             $cmp.notify(CookieName, subTitle, detail)
             resolve()
