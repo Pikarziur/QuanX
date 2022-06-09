@@ -2,9 +2,12 @@
     "name": "Pikarziur",
     "description": "https://github.com/Pikarziur/QuanX",
     "task": [
-        "0 50 9 * * https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean.js, tag=欧可林-应用签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Oclean.png, enabled=true",
-        "5 50 9 * * https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini.js, tag=欧可林-程序签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Oclean.png, enabled=true",
-
+        "05 55 09 * * https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean.js, tag=欧可林-应用签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Oclean.png, enabled=true",
+        "10 55 09 * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Oclean2.js, tag=欧可林-应用2签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Oclean.png, enabled=true",
+        "15 55 09 * * https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini.js, tag=欧可林-程序签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Oclean.png, enabled=true",
+        "20 55 09 * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Oclean_mini2.js, tag=欧可林-程序2签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Oclean.png, enabled=true",
+        
+        https://raw.githubusercontent.com/Pikarziur/QuanX/main/Oclean_mini2.js
         "0 0 10 * * https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_red_envelope_am.js, tag=欧可林-应用早包, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Oclean.png, enabled=true",
         "2 0 10 * * https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini_red_envelope_am.js, tag=欧可林-程序早包, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Oclean.png, enabled=true",
 
