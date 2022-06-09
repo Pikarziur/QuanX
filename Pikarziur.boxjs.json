@@ -35,7 +35,7 @@
             "val": "",
             "type": "text",
             "desc": "用户验证信息，由微信小程序生成。"
-          }
+          },
           {
             "id": "Oclean_mini2",
             "name": "openId",
