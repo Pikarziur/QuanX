@@ -1,9 +1,9 @@
 {
-  "id": "zZPiglet.app.sub",
-  "name": "zZPiglet 应用订阅",
-  "author": "@zZPiglet",
+  "id": "Pikarziur.app.sub",
+  "name": "Pikarziur 应用订阅",
+  "author": "@Pikarziur",
   "icon": "https://raw.githubusercontent.com/Pikarziur/QuanX/main/Pikarziur.jpg",
-  "repo": "https://github.com/zZPiglet/Task",
+  "repo": "https://github.com/Pikarziur/QuanX",
   "apps": [
     {
       "id": "zZ.UnblockURLinWeChat",
