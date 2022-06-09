@@ -1,5 +1,5 @@
 /*
-"欧可林"每日红包得积分，晚上九点，此脚本为使用 oclean_mini2.js 者使用。
+"欧可林"每日红包得积分，晚上九点，此脚本为使用 Oclean_mini2.js 者使用。
 0 0 21 * * *
 
 由于欧可林服务器（大概）的问题，脚本几乎肯定会超时无通知，日志为 timeout，但有概率可以抽中，希望抽中且有通知者反馈一下日志中的返回体或日志、通知截图。
@@ -25,10 +25,10 @@ Lottery();
 function Lottery() {
 	let subTitle = "";
 	let detail = "";
-	const oclean_mini2 = {
-		url: CheckinURL + $cmp.read("oclean_mini2"),
+	const Oclean_mini2 = {
+		url: CheckinURL + $cmp.read("Oclean_mini2"),
 	};
-	$cmp.get(oclean_mini2, function (error, response, data) {
+	$cmp.get(Oclean_mini2, function (error, response, data) {
 		if (!error) {
 			const result = JSON.parse(data);
 			if (result.Status == "OK") {
@@ -48,7 +48,7 @@ function Lottery() {
 		} else {
 			//subTitle += '签到接口请求失败，详情请见日志。'
 			//detail += error
-			$cmp.log("oclean_mini2 failed response : \n" + error);
+			$cmp.log("Oclean_mini2 failed response : \n" + error);
 		}
 		//$cmp.notify(CookieName, subTitle, detail)
 	$cmp.done();
