@@ -13,7 +13,7 @@
           "使用小程序请先按<a href=\"https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini.js\">脚本注释</a>进行配置，然后进入微信小程序\"欧可林商城\"并点击\"每日任务\"，若弹出\"首次写入欧可林商城 Cookie 成功\"即可正常食用。",
           "app 和小程序选择一个使用即可，两者获取的奖励一致。欧可林有早、晚积分红包脚本，请搭配使用，抢红包脚本基本均处于超时状态，故要么无通知要么通知超时，无影响。若抢红包脚本发出正常通知，请反馈通知及日志至 <a href=\"https://t.me/zZPiglet_bot\">@zZPiglet_bot</a>。"
         ],
-        "keys": ["Oclean", "Oclean_mini"],
+        "keys": ["Oclean", "Oclean2", "Oclean_mini", "Oclean_mini2"],
         "settings": [
           {
             "id": "Oclean",
