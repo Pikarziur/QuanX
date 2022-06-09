@@ -240,21 +240,21 @@
         },
         {
           "id": "Oclean2",
-          "name": "Shop-Member",
+          "name": "Shop-Member2",
           "val": "",
           "type": "text",
           "desc": "用户验证信息，由 app2 注册绑定生成。"
         },
         {
-          "id": "Oclean_mini2",
-          "name": "Shop-Member",
+          "id": "Oclean_mini",
+          "name": "openId",
           "val": "",
           "type": "text",
           "desc": "用户验证信息，由微信小程序2生成。"
         },
         {
-          "id": "Oclean_mini",
-          "name": "openId",
+          "id": "Oclean_mini2",
+          "name": "openId2",
           "val": "",
           "type": "text",
           "desc": "用户验证信息，由微信小程序生成。"
