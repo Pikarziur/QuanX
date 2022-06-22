@@ -1,16 +1,20 @@
 {
     "name": "Pikarziur",
     "task": [
-        "0 55 9 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Oclean1.js, tag=欧可林[1号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Oclean_ICON1.png, enabled=true",
-        "5 55 9 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Oclean2.js, tag=欧可林[2号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Oclean_ICON1.png, enabled=true",
-
-        "0 0 10 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Oclean1_red_envelope_am.js, tag=欧可林-早[1号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Oclean_ICON2.png, enabled=true",
-        "0 0 10 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Oclean2_red_envelope_am.js, tag=欧可林-早[2号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Oclean_ICON2.png, enabled=true",
-        "0 0 10 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Oclean_mini1_red_envelope_am.js, tag=欧可林-早[a号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Oclean_ICON2.png, enabled=true",
-        "0 0 10 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Oclean_mini2_red_envelope_am.js, tag=欧可林-早[b号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Oclean_ICON2.png, enabled=true",
-        "0 0 21 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Oclean1_red_envelope_pm.js, tag=欧可林-晚[1号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Oclean_ICON3.png, enabled=true",
-        "0 0 21 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Oclean2_red_envelope_pm.js, tag=欧可林-晚[2号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Oclean_ICON3.png, enabled=true",
-        "0 0 21 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Oclean_mini1_red_envelope_pm.js, tag=欧可林-晚[a号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Oclean_ICON3.png, enabled=true",
-        "0 0 21 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Oclean_mini2_red_envelope_pm.js, tag=欧可林-晚[b号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Oclean_ICON3.png, enabled=true",
+        "0 55 9 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Oclean1.js, tag=欧可林[1号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/Oclean_ICON1.png, enabled=true",
+        "5 55 9 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Oclean2.js, tag=欧可林[2号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/Oclean_ICON1.png, enabled=true",
+        "5 55 9 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Oclean3.js, tag=欧可林[3号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/Oclean_ICON1.png, enabled=true",
+        "5 55 9 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Oclean4.js, tag=欧可林[4号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/Oclean_ICON1.png, enabled=true",
+        "5 55 9 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Oclean5.js, tag=欧可林[5号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/Oclean_ICON1.png, enabled=true",
+        "0 0 10 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Oclean1_redpacket_am.js, tag=欧可林-早[1号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/Oclean_ICON2.png, enabled=true",
+        "0 0 10 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Oclean2_redpacket_am.js, tag=欧可林-早[2号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/Oclean_ICON2.png, enabled=true",
+        "0 0 10 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Oclean3_redpacket_am.js, tag=欧可林-早[3号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/Oclean_ICON2.png, enabled=true",
+        "0 0 10 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Oclean4_redpacket_am.js, tag=欧可林-早[4号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/Oclean_ICON2.png, enabled=true",
+        "0 0 10 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Oclean5_redpacket_am.js, tag=欧可林-早[5号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/Oclean_ICON2.png, enabled=true",
+        "0 0 21 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Oclean1_redpacket_pm.js, tag=欧可林-晚[1号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/Oclean_ICON3.png, enabled=true",
+        "0 0 21 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Oclean2_redpacket_pm.js, tag=欧可林-晚[2号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/Oclean_ICON3.png, enabled=true",
+        "0 0 21 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Oclean3_redpacket_pm.js, tag=欧可林-晚[3号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/Oclean_ICON3.png, enabled=true",
+        "0 0 21 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Oclean4_redpacket_pm.js, tag=欧可林-晚[4号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/Oclean_ICON3.png, enabled=true",
+        "0 0 21 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Oclean5_redpacket_pm.js, tag=欧可林-晚[5号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/Oclean_ICON3.png, enabled=true",
     ]
 }
