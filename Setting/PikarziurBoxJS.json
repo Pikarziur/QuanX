@@ -2,7 +2,7 @@
   "id": "Pikarziur.app.sub",
   "name": "Pikarziur 应用订阅",
   "author": "@Pikarziur",
-  "icon": "https://raw.githubusercontent.com/Pikarziur/QuanX/main/Pikarziur.jpg",
+  "icon": "https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/Pikarziur.jpg",
   "repo": "https://github.com/Pikarziur/QuanX",
   "apps": [
     {
@@ -20,7 +20,7 @@
           "name": "Shop-Member",
           "val": "",
           "type": "text",
-          "desc": "用户验证信息，由 app 注册绑定生成。"
+          "desc": "用户验证信息，由 app1 注册绑定生成。"
         },
         {
           "id": "Oclean2",
@@ -30,19 +30,26 @@
           "desc": "用户验证信息，由 app2 注册绑定生成。"
         },
         {
-          "id": "Oclean_mini",
-          "name": "openId",
+          "id": "Oclean3",
+          "name": "Shop-Member3",
           "val": "",
           "type": "text",
-          "desc": "用户验证信息，由微信小程序2生成。"
+          "desc": "用户验证信息，由 app2 注册绑定生成。"
         },
         {
-          "id": "Oclean_mini2",
-          "name": "openId2",
+          "id": "Oclean4",
+          "name": "Shop-Member4",
           "val": "",
           "type": "text",
-          "desc": "用户验证信息，由微信小程序生成。"
-        }
+          "desc": "用户验证信息，由 app2 注册绑定生成。"
+        },
+        {
+          "id": "Oclean5",
+          "name": "Shop-Member5",
+          "val": "",
+          "type": "text",
+          "desc": "用户验证信息，由 app2 注册绑定生成。"
+        },
       ],
       "author": "@zZPiglet",
       "repo": "https://github.com/zZPiglet/Task/tree/master/Oclean",
