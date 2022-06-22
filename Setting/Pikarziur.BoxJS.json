@@ -10,7 +10,7 @@
       "name": "欧可林",
       "keys": ["Oclean", "Oclean2", "Oclean3", "Oclean4", "Oclean5"],
       "settings": [
- {
+        {
           "id": "Oclean",
           "name": "Shop-Member",
           "val": "",
@@ -44,7 +44,7 @@
           "val": "",
           "type": "text",
           "desc": "用户验证信息，由 app5 注册绑定生成。"
-        },
+        }
       ],
     }
   ]
