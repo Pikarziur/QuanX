@@ -16,11 +16,11 @@
       "keys": ["Oclean", "Oclean_mini"],
       "settings": [
         {
-          "id": "Oclean1",
-          "name": "Shop-Member1",
+          "id": "Oclean",
+          "name": "Shop-Member",
           "val": "",
-          "type": "text1",
-          "desc": "用户验证信息，由 app1 注册绑定生成。"
+          "type": "text",
+          "desc": "用户验证信息，由 app 注册绑定生成。"
         },
         {
           "id": "Oclean2",
