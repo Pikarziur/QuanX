@@ -266,13 +266,6 @@
           "type": "text",
           "desc": "用户验证信息，由 app5 注册绑定生成。"
         },
-        {
-          "id": "Oclean_mini",
-          "name": "openId",
-          "val": "",
-          "type": "text",
-          "desc": "用户验证信息，由微信小程序生成。"
-        }
       ],
       "author": "@zZPiglet",
       "repo": "https://github.com/zZPiglet/Task/tree/master/Oclean",
