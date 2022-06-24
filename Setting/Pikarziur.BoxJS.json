@@ -20,7 +20,7 @@
           "name": "Shop-Member1",
           "val": "",
           "type": "text1",
-          "desc": "用户验证信息，由 app 注册绑定生成。"
+          "desc": "用户验证信息，由 app1 注册绑定生成。"
         },
         {
           "id": "Oclean2",
