@@ -238,6 +238,34 @@
           "type": "text",
           "desc": "用户验证信息，由 app1 注册绑定生成。"
         },
+                {
+          "id": "Oclean2",
+          "name": "Shop-Member2",
+          "val": "",
+          "type": "text",
+          "desc": "用户验证信息，由 app2 注册绑定生成。"
+        },
+                        {
+          "id": "Oclean3",
+          "name": "Shop-Member3",
+          "val": "",
+          "type": "text",
+          "desc": "用户验证信息，由 app3 注册绑定生成。"
+        },
+                        {
+          "id": "Oclean4",
+          "name": "Shop-Member4",
+          "val": "",
+          "type": "text",
+          "desc": "用户验证信息，由 app4 注册绑定生成。"
+        },
+                        {
+          "id": "Oclean5",
+          "name": "Shop-Member5",
+          "val": "",
+          "type": "text",
+          "desc": "用户验证信息，由 app5 注册绑定生成。"
+        },
         {
           "id": "Oclean_mini",
           "name": "openId",
