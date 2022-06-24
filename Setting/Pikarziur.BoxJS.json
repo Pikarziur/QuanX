@@ -232,11 +232,11 @@
       "keys": ["Oclean", "Oclean_mini"],
       "settings": [
         {
-          "id": "Oclean",
-          "name": "Shop-Member",
+          "id": "Oclean1",
+          "name": "Shop-Member1",
           "val": "",
           "type": "text",
-          "desc": "用户验证信息，由 app 注册绑定生成。"
+          "desc": "用户验证信息，由 app1 注册绑定生成。"
         },
         {
           "id": "Oclean_mini",
