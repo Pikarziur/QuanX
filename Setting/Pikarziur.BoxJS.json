@@ -29,40 +29,39 @@
           "type": "text",
           "desc": "用户验证信息，由微信小程序生成。"
         }
+      ],
+      "author": "@zZPiglet",
+      "repo": "https://github.com/zZPiglet/Task/tree/master/Oclean",
+      "scripts": [
+        {
+          "name": "欧可林 app",
+          "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean.js"
+        },
+        {
+          "name": "欧可林 app 早红包",
+          "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_red_envelope_am.js"
+        },
+        {
+          "name": "欧可林 app 晚红包",
+          "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_red_envelope_pm.js"
+        },
+        {
+          "name": "欧可林 小程序",
+          "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini.js"
+        },
+        {
+          "name": "欧可林 小程序 早红包",
+          "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini_red_envelope_am.js"
+        },
+        {
+          "name": "欧可林 小程序 晚红包",
+          "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini_red_envelope_pm.js"
+        }
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Oclean.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Oclean.png"
       ]
-      // ,
-      // "author": "@zZPiglet",
-      // "repo": "https://github.com/zZPiglet/Task/tree/master/Oclean",
-      // "scripts": [
-      //   {
-      //     "name": "欧可林 app",
-      //     "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean.js"
-      //   },
-      //   {
-      //     "name": "欧可林 app 早红包",
-      //     "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_red_envelope_am.js"
-      //   },
-      //   {
-      //     "name": "欧可林 app 晚红包",
-      //     "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_red_envelope_pm.js"
-      //   },
-      //   {
-      //     "name": "欧可林 小程序",
-      //     "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini.js"
-      //   },
-      //   {
-      //     "name": "欧可林 小程序 早红包",
-      //     "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini_red_envelope_am.js"
-      //   },
-      //   {
-      //     "name": "欧可林 小程序 晚红包",
-      //     "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini_red_envelope_pm.js"
-      //   }
-      // ],
-      // "icons": [
-      //   "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Oclean.png",
-      //   "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Oclean.png"
-      // ]
     }
   ]
 
