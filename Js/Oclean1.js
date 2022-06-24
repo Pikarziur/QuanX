@@ -39,7 +39,7 @@ hostname = mall.oclean.com
 const CheckinURL = 'https://mall.oclean.com/API/VshopProcess.ashx'
 const DrawURL = 'https://mall.oclean.com/api/VshopProcess.ashx?action=ActivityDraw'
 const CookieName = '欧可林'
-const CookieKey = 'Oclean'
+const CookieKey = 'Oclean1'
 const reg = /Shop-Member=(\S*);/
 const $cmp = compatibility()
 
@@ -82,14 +82,14 @@ async function Checkin() {
     const oclean = {
         url: CheckinURL,
         headers: {
-            "Cookie": 'Shop-Member=' + $cmp.read("Oclean"),
+            "Cookie": 'Shop-Member=' + $cmp.read("Oclean1"),
         },
         body: 'action=SignIn&SignInSource=2&clientType=2'
     }
     const oclean_draw = {
         url: DrawURL,
         headers: {
-            "Cookie": 'Shop-Member=' + $cmp.read("Oclean"),
+            "Cookie": 'Shop-Member=' + $cmp.read("Oclean1"),
         },
         body: 'ActivityId=9&clientType=2'
     }

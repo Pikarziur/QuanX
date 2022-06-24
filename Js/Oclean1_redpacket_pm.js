@@ -27,7 +27,7 @@ function Lottery() {
 	const oclean = {
 		url: CheckinURL,
 		headers: {
-			Cookie: "Shop-Member=" + $cmp.read("Oclean"),
+			Cookie: "Shop-Member=" + $cmp.read("Oclean1"),
 		},
 		body: "action=GrabEveryDayPoint&redId=2&clientType=2",
 	};
