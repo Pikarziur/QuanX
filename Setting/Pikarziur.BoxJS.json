@@ -23,6 +23,13 @@
           "desc": "用户验证信息，由 app 注册绑定生成。"
         },
         {
+          "id": "Oclean2",
+          "name": "Shop-Member",
+          "val": "",
+          "type": "text",
+          "desc": "用户验证信息，由 app2 注册绑定生成。"
+        },
+        {
           "id": "Oclean_mini",
           "name": "openId",
           "val": "",
