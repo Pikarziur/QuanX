@@ -1,0 +1,14 @@
+hostname = maicai.api.ddxq.mobi, mall.meituan.com, 
+
+
+# 叮咚买菜每日自动签到
+
+^https?:\/\/maicai\.api\.ddxq\.mobi\/point\/home\?api_version url script-request-header https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Checkin_dingdong.js
+
+
+
+
+# 美团买菜每日自动签到
+
+^https?:\/\/mall\.meituan\.com\/api\/c\/mallcoin\/checkIn\/getWeekCheckInProgressBar\? url script-request-header https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Checkin_meituan.js
+
