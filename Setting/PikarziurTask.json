@@ -2,7 +2,8 @@
     "name": "Pikarziur",
     "task": [
         "0 30 6 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Checkin_pupu.js, tag=朴朴签到, img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/pupu.png, enabled=true",
-        "5 30 6 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Checkin_dingdong.js, tag=叮咚签到, img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/dingdong.png, enabled=true",
+        "3 30 6 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Checkin_dingdong.js, tag=叮咚签到, img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/dingdong.png, enabled=true",
+        "6 30 6 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Checkin_meituan.js, tag=美团签到, img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/meituan.png, enabled=true",
         "0 55 9 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Oclean1.js, tag=欧可林[1号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/Oclean_ICON1.png, enabled=true",
         "5 55 9 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Oclean2.js, tag=欧可林[2号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/Oclean_ICON1.png, enabled=true",
         "5 55 9 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Oclean3.js, tag=欧可林[3号], img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/Oclean_ICON1.png, enabled=true",
