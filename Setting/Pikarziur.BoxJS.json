@@ -1,9 +1,9 @@
 {
-  "id": "Pikarziur.app.sub",
-  "name": "Pikarziur 应用订阅",
-  "author": "@Pikarziur",
+  "id": "zZPiglet.app.sub",
+  "name": "zZPiglet 应用订阅",
+  "author": "@zZPiglet",
   "icon": "https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/Pikarziur.jpg",
-  "repo": "https://github.com/Pikarziur/Task",
+  "repo": "https://github.com/zZPiglet/Task",
   "apps": [
     {
       "id": "zZ.Oclean",
@@ -46,8 +46,8 @@
           "desc": "用户验证信息，由 app5 注册绑定生成。"
         }
       ],
-      "author": "@Pikarziur",
-      "repo": "https://github.com/Pikarziur/Task/tree/master/Oclean",
+      "author": "@zZPiglet",
+      "repo": "https://github.com/zZPiglet/Task/tree/master/Oclean",
       "icons": [
         "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Oclean.png",
         "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Oclean.png"
