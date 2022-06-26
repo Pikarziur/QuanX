@@ -2,7 +2,7 @@
   "id": "Pikarziur.app.sub",
   "name": "Pikarziur 应用订阅",
   "author": "@Pikarziur",
-  "icon": "https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/Pikarziur.jpg", // https://raw.githubusercontent.com/zZPiglet/Task/master/img/fly.gif
+  "icon": "https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/Pikarziur.jpg",
   "repo": "https://github.com/Pikarziur/Task",
   "apps": [
     {
