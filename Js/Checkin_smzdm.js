@@ -1,3 +1,13 @@
+/* Web端获取Cookie：
+# 使用Safari，不要使用第三方浏览器！
+
+# 使用手机浏览器访问 https://zhiyou.smzdm.com/ 进行一次登录，通常会显示获取cookie成功。
+
+# 可能因为重定向的问题，登录成功后访问的不是https://zhiyou.smzdm.com/user/ ，则重新在浏览器中访问一次https://zhiyou.smzdm.com/user/ 即可。
+*/
+
+
+
 const zhiyouRegex = /^https?:\/\/zhiyou\.smzdm\.com\/user$/;
 const smzdmCookieKey = 'smzdm_cookie';
 const smzdmSessionKey = 'smzdm_session';
