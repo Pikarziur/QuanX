@@ -1,7 +1,8 @@
 {
     "name": "Pikarziur",
     "task": [
-        "0 30 6 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Checkin_smzdm.js, tag=什么值得买, img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/smzdm.png, enabled=true",
+        "0 30 6 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Checkin_smzdm.js, tag=什么值得买-签到, img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/smzdm.png, enabled=true",
+        "0 30 6 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Mission_smzdm.js, tag=什么值得买-任务, img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/smzdm.png, enabled=true",
         "2 30 6 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Checkin_manmanbuy.js, tag=什么值得买, img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/manmanbuy.png, enabled=true",
         "4 30 6 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Checkin_dingdong.js, tag=叮咚签到, img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/dingdong.png, enabled=true",
         "6 30 6 * * * https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Checkin_meituan.js, tag=美团签到, img-url=https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/meituan.png, enabled=true",
