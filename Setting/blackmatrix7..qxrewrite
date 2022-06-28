@@ -1,4 +1,5 @@
-hostname = maicai.api.ddxq.mobi, mall.meituan.com, 
+hostname = maicai.api.ddxq.mobi, mall.meituan.com, zhiyou.smzdm.com, apph5.manmanbuy.com
+
 
 
 # 叮咚买菜每日自动签到
@@ -7,8 +8,19 @@ hostname = maicai.api.ddxq.mobi, mall.meituan.com,
 
 
 
-
 # 美团买菜每日自动签到
 
 ^https?:\/\/mall\.meituan\.com\/api\/c\/mallcoin\/checkIn\/getWeekCheckInProgressBar\? url script-request-header https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Checkin_meituan.js
 
+
+
+# 什么值得买每日自动签到
+
+^https?:\/\/zhiyou\.smzdm\.com\/user$ url script-request-header https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Checkin_smzdm.js
+^https?:\/\/user-api\.smzdm\.com\/user_login\/normal$ url script-request-body https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Checkin_smzdm.js
+
+
+
+# 慢慢买每日自动签到
+
+^https?:\/\/apph5\.manmanbuy\.com\/taolijin\/(login.aspx|logserver.aspx) url script-request-body https://raw.githubusercontent.com/Pikarziur/QuanX/main/Js/Checkin_manmanbuy.js
