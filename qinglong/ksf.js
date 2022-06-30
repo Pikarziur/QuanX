@@ -23,7 +23,11 @@ export yml_ksf_data='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJVU0VSX0lEIjoiNjg5MD
 const $ = new Env('康师傅');
 const host = 'club.biqr.cn';
 const notify = $.isNode() ? require('./sendNotify') : '';
+
+const Notify = 1; //0为关闭通知，1为打开通知,默认为1
+const debug = 1; //0为关闭调试，1为打开调试,默认为0
 // let wx_ksf_data = [];
+let msg = ''; // 修改
 
 !(async () => {
 
@@ -31,6 +35,7 @@ const notify = $.isNode() ? require('./sendNotify') : '';
         //$.isNode()环境执行部分  青龙执行
         if (!process.env.yml_ksf_data) {
             console.log(`\n【${$.name}】：未填写相应变量 yml_ksf_data`);
+            msg += `\n【${$.name}】：未填写相应变量 yml_ksf_data` // 修改
             return;
         }
         if (process.env.yml_ksf_data && process.env.yml_ksf_data.indexOf('@') > -1) {
@@ -45,6 +50,7 @@ const notify = $.isNode() ? require('./sendNotify') : '';
     }
 
     console.log(`-------- 共 ${wx_yml_ksf_data.length} 个账号 --------`)
+    msg += `\n-------- 共 ${wx_yml_ksf_data.length} 个账号 --------` // 修改
     // console.log(wx_yml_ksf_data);
     console.log(
         `\n\n====== 脚本执行 - 北京时间(UTC+8)：${new Date(
@@ -64,6 +70,7 @@ const notify = $.isNode() ? require('./sendNotify') : '';
     for (i = 0; i < wx_yml_ksf_data.length; i++) {
         $.index = i + 1;
         console.log(`\n----- 开始【第 ${$.index} 个账号】-----`)
+        msg += `\n----- 开始【第 ${$.index} 个账号】-----` // 修改
         // console.log(`这里是分割后:${wx_yml_ksf_data}`);
         token = wx_yml_ksf_data[i].split('&');
         // cjtoken = wx_yml_ksf_data[i].split('&');
@@ -74,11 +81,11 @@ const notify = $.isNode() ? require('./sendNotify') : '';
         // await test();
         await qd();
         await $.wait(2 * 1000);
-        await cj();
-        await $.wait(2 * 1000);
+        //await cj();
+        //await $.wait(2 * 1000);
         await cx();
 
-
+        await SendMsg(msg);
     }
 
 })()
@@ -140,14 +147,18 @@ function qd(timeout = 0) {
                 result = JSON.parse(data);
                 if (result.code === 0) {
                     $.log(`\n【🎉🎉🎉 恭喜您鸭 🎉🎉🎉】执行签到: ${result.msg} ✅ `)
+                    msg += `\n【🎉🎉🎉 恭喜您鸭 🎉🎉🎉】执行签到: ${result.msg} ✅ ` // 修改
                     await $.wait(3 * 1000)
                 } else if (result.code === 500) {
                     $.log(`\n【🎉🎉🎉 恭喜个屁 🎉🎉🎉】执行签到: 失败 ❌ 了呢 ,可能是:${result.msg} `)
+                    msg += `\n【🎉🎉🎉 恭喜个屁 🎉🎉🎉】执行签到: 失败 ❌ 了呢 ,可能是:${result.msg} ` // 修改
                 } else if (result.code === 600) {
                     $.log(`\n【🎉🎉🎉 恭喜个屁🎉🎉🎉】执行签到: 失败 ❌ 了呢 ,可能是:${result.msg},请重新获取 token 再试试吧! `)
+                    msg += `\n【🎉🎉🎉 恭喜个屁🎉🎉🎉】执行签到: 失败 ❌ 了呢 ,可能是:${result.msg},请重新获取 token 再试试吧! ` // 修改
                 }
                 else {
                     $.log(`\n【🎉 恭喜个屁 🎉】执行签到:失败 ❌ 了呢,原因未知! `)
+                    msg += `\n【🎉 恭喜个屁 🎉】执行签到:失败 ❌ 了呢,原因未知! ` // 修改
                 }
             } catch (e) {
                 $.logErr(e, resp);
@@ -186,15 +197,18 @@ function cj(timeout = 0) {
                 result = JSON.parse(data);
                 if (result.code === 0) {
                     $.log(`\n【🎉🎉🎉 恭喜您鸭 🎉🎉🎉】执行抽奖: ${result.msg} ✅ ,获得${result.data.name}`)
+                    msg += `\n【🎉🎉🎉 恭喜您鸭 🎉🎉🎉】执行抽奖: ${result.msg} ✅ ,获得${result.data.name}` // 修改
                     await $.wait(5 * 1000);
                     await cj();
 
                 } else if (result.code === 500) {
                     $.log(`\n【🎉🎉🎉 恭喜您鸭 🎉🎉🎉】执行抽奖: 失败 ❌ 了呢 ,可能是:${result.msg} `)
+                    msg += `\n【🎉🎉🎉 恭喜您鸭 🎉🎉🎉】执行抽奖: 失败 ❌ 了呢 ,可能是:${result.msg} ` // 修改
 
                 }
                 else {
                     $.log(`\n【🎉 恭喜个屁 🎉】执行抽奖:失败 ❌ 了呢,原因未知! `)
+                    msg += `\n【🎉 恭喜个屁 🎉】执行抽奖:失败 ❌ 了呢,原因未知! ` // 修改
                 }
             } catch (e) {
                 $.logErr(e, resp);
@@ -545,3 +559,21 @@ function Env(t, e) {
         }
     }(t, e)
 }
+
+
+
+async function SendMsg(message) {
+	if (!message)
+		return;
+
+	if (Notify > 0) {
+		if ($.isNode()) {
+			var notify = require('./sendNotify');
+			await notify.sendNotify($.name, message);
+		} else {
+			$.msg(message);
+		}
+	} else {
+		console.log(message);
+	}
+} // 修改
