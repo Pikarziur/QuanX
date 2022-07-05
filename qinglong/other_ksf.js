@@ -246,7 +246,7 @@ function cx(timeout = 0) {
                 result = JSON.parse(data);
                 if (result.code === 0) {
                     $.log(`\n 当前账号： ${result.data.nickname} , \n 查询积分：${result.data.integral} ，\n 累计获得查询积分：${result.data.totalIntegral}  `)
-
+		    msg += `\n 当前账号： ${result.data.nickname} , \n 查询积分：${result.data.integral} ` // 修改
                 } else {
                     $.log(`\n 查询积分:失败 ❌ 了呢,请重新获取token ! `)
                 }
