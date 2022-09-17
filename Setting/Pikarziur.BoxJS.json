@@ -44,7 +44,21 @@
           "val": "",
           "type": "text",
           "desc": "用户验证信息，由 app5 注册绑定生成。"
-        }
+        },
+                        {
+          "id": "Oclean6",
+          "name": "Shop-Member6",
+          "val": "",
+          "type": "text",
+          "desc": "用户验证信息，由 app6 注册绑定生成。"
+        },
+                        {
+          "id": "Oclean7",
+          "name": "Shop-Member7",
+          "val": "",
+          "type": "text",
+          "desc": "用户验证信息，由 app7 注册绑定生成。"
+        },
       ],
       "author": "@Pikarziur",
       "repo": "https://github.com/Pikarziur/Task/tree/master/Oclean",
