@@ -1,0 +1,71 @@
+{
+  "id": "Pikarziur.app.sub",
+  "name": "Pikarziur 应用订阅",
+  "author": "@Pikarziur",
+  "icon": "https://raw.githubusercontent.com/Pikarziur/QuanX/main/Icon/Pikarziur.jpg",
+  "repo": "https://github.com/Pikarziur/QuanX",
+  "apps": [
+    {
+      "id": "zZ.Oclean",
+      "name": "欧可林",
+      "keys": ["Oclean1", "Oclean2", "Oclean3", "Oclean4", "Oclean5", "Oclean6", "Oclean7"],
+      "settings": [
+        {
+          "id": "Oclean1",
+          "name": "Shop-Member1",
+          "val": "",
+          "type": "text",
+          "desc": "用户验证信息，由 app1 注册绑定生成。"
+        },
+                {
+          "id": "Oclean2",
+          "name": "Shop-Member2",
+          "val": "",
+          "type": "text",
+          "desc": "用户验证信息，由 app2 注册绑定生成。"
+        },
+                        {
+          "id": "Oclean3",
+          "name": "Shop-Member3",
+          "val": "",
+          "type": "text",
+          "desc": "用户验证信息，由 app3 注册绑定生成。"
+        },
+                        {
+          "id": "Oclean4",
+          "name": "Shop-Member4",
+          "val": "",
+          "type": "text",
+          "desc": "用户验证信息，由 app4 注册绑定生成。"
+        },
+                        {
+          "id": "Oclean5",
+          "name": "Shop-Member5",
+          "val": "",
+          "type": "text",
+          "desc": "用户验证信息，由 app5 注册绑定生成。"
+        },
+                        {
+          "id": "Oclean6",
+          "name": "Shop-Member6",
+          "val": "",
+          "type": "text",
+          "desc": "用户验证信息，由 app6 注册绑定生成。"
+        },
+                        {
+          "id": "Oclean7",
+          "name": "Shop-Member7",
+          "val": "",
+          "type": "text",
+          "desc": "用户验证信息，由 app7 注册绑定生成。"
+        },
+      ],
+      "author": "@Pikarziur",
+      "repo": "https://github.com/Pikarziur/Task/tree/master/Oclean",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Oclean.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Oclean.png"
+      ]
+    }
+  ]
+}
