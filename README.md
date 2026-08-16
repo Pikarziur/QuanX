@@ -1,1 +1,345 @@
-08-16 20:05:33.243 28975 28975 E AutoBOTApp: ========================= CRASH =========================                  08-16 20:05:33.243 28975 28975 E AutoBOTApp: Thread: main                                                               08-16 20:05:33.243 28975 28975 E AutoBOTApp: java.lang.NullPointerException: Attempt to invoke interface method 'int java.lang.CharSequence.length()' on a null object reference                                                                08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.text.StaticLayout.<init>(StaticLayout.java:654)              08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.appcompat.widget.SwitchCompat.makeLayout(SwitchCompat.java:995)                                                                                                                     08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.appcompat.widget.SwitchCompat.onMeasure(SwitchCompat.java:916)                                                                                                                      08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.View.measure(View.java:30133)                           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7081)  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1608)                                                                                                                 08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.measureHorizontal(LinearLayout.java:1240)08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.onMeasure(LinearLayout.java:723)         08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.View.measure(View.java:30133)                           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7081)  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1608)                                                                                                                 08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.measureVertical(LinearLayout.java:878)   08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.onMeasure(LinearLayout.java:721)         08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.View.measure(View.java:30133)                           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7081)  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.FrameLayout.onMeasure(FrameLayout.java:194)           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.cardview.widget.CardView.onMeasure(CardView.java:260)       08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at com.google.android.material.card.MaterialCardView.onMeasure(MaterialCardView.java:211)                                                                                                       08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.View.measure(View.java:30133)                           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7081)  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1608)                                                                                                                 08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.measureVertical(LinearLayout.java:878)   08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.onMeasure(LinearLayout.java:721)         08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.View.measure(View.java:30133)                           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.ScrollView.measureChildWithMargins(ScrollView.java:1552)                                                                                                                      08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.FrameLayout.onMeasure(FrameLayout.java:194)           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.ScrollView.onMeasure(ScrollView.java:475)             08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.View.measure(View.java:30133)                           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7081)  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.FrameLayout.onMeasure(FrameLayout.java:194)           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.View.measure(View.java:30133)                           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.constraintlayout.widget.ConstraintLayout$Measurer.measure(ConstraintLayout.java:811)                                                                                                08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.constraintlayout.core.widgets.ConstraintWidgetContainer.measure(ConstraintWidgetContainer.java:632)                                                                                 08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.constraintlayout.core.widgets.analyzer.Direct.verticalSolvingPass(Direct.java:452)                                                                                                  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.constraintlayout.core.widgets.analyzer.Direct.solveVerticalMatchConstraint(Direct.java:750)                                                                                         08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.constraintlayout.core.widgets.analyzer.Direct.verticalSolvingPass(Direct.java:503)                                                                                                  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.constraintlayout.core.widgets.analyzer.Direct.verticalSolvingPass(Direct.java:542)                                                                                                  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.constraintlayout.core.widgets.analyzer.Direct.solvingPass(Direct.java:224)                                                                                                          08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.constraintlayout.core.widgets.ConstraintWidgetContainer.layout(ConstraintWidgetContainer.java:693)                                                                                  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.constraintlayout.core.widgets.analyzer.BasicMeasure.solveLinearSystem(BasicMeasure.java:160)                                                                                        08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.constraintlayout.core.widgets.analyzer.BasicMeasure.solverMeasure(BasicMeasure.java:291)                                                                                            08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.constraintlayout.core.widgets.ConstraintWidgetContainer.measure(ConstraintWidgetContainer.java:120)                                                                                 08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.constraintlayout.widget.ConstraintLayout.resolveSystem(ConstraintLayout.java:1594)                                                                                                  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.constraintlayout.widget.ConstraintLayout.onMeasure(ConstraintLayout.java:1708)                                                                                                      08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.View.measure(View.java:30133)                           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7081)  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.FrameLayout.onMeasure(FrameLayout.java:194)           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.appcompat.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:145)                                                                                                          08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.View.measure(View.java:30133)                           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7081)  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1608)                                                                                                                 08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.measureVertical(LinearLayout.java:878)   08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.onMeasure(LinearLayout.java:721)         08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.View.measure(View.java:30133)                           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7081)  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.FrameLayout.onMeasure(FrameLayout.java:194)           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.View.measure(View.java:30133)                           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7081)  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1608)                                                                                                                 08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.measureVertical(LinearLayout.java:878)   08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.onMeasure(LinearLayout.java:721)         08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.View.measure(View.java:30133)                           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7081)  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.FrameLayout.onMeasure(FrameLayout.java:194)           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at com.android.internal.policy.DecorView.onMeasure(DecorView.java:895)  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.View.measure(View.java:30133)                           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:6280)     08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:4525)   08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:4891)  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:4177)        08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:12647)                                                                                                                     08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.Choreographer$CallbackRecord.run(Choreographer.java:2088)                                                                                                                       08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.Choreographer$CallbackRecord.run(Choreographer.java:2097)                                                                                                                       08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.Choreographer.doCallbacks(Choreographer.java:1572)      08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.Choreographer.doFrame(Choreographer.java:1453)          08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:2051)                                                                                                            08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.os.Handler.handleCallback(Handler.java:1029)                 08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.os.Handler.dispatchMessage(Handler.java:107)                 08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.os.Looper.loopOnce(Looper.java:274)                          08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.os.Looper.loop(Looper.java:369)                              08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.app.ActivityThread.main(ActivityThread.java:10085)           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at java.lang.reflect.Method.invoke(Native Method)                       08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:616)                                                                                                            08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1137)        08-16 20:05:33.243 28975 28975 E AutoBOTApp:                                                                            08-16 20:05:33.243 28975 28975 E AutoBOTApp: =========================================================                  08-16 20:05:33.243 28975 28975 E AutoBOTApp: java.lang.NullPointerException: Attempt to invoke interface method 'int java.lang.CharSequence.length()' on a null object reference                                                                08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.text.StaticLayout.<init>(StaticLayout.java:654)              08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.appcompat.widget.SwitchCompat.makeLayout(SwitchCompat.java:995)                                                                                                                     08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.appcompat.widget.SwitchCompat.onMeasure(SwitchCompat.java:916)                                                                                                                      08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.View.measure(View.java:30133)                           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7081)  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1608)                                                                                                                 08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.measureHorizontal(LinearLayout.java:1240)08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.onMeasure(LinearLayout.java:723)         08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.View.measure(View.java:30133)                           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7081)  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1608)                                                                                                                 08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.measureVertical(LinearLayout.java:878)   08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.onMeasure(LinearLayout.java:721)         08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.View.measure(View.java:30133)                           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7081)  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.FrameLayout.onMeasure(FrameLayout.java:194)           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.cardview.widget.CardView.onMeasure(CardView.java:260)       08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at com.google.android.material.card.MaterialCardView.onMeasure(MaterialCardView.java:211)                                                                                                       08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.View.measure(View.java:30133)                           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7081)  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1608)                                                                                                                 08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.measureVertical(LinearLayout.java:878)   08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.onMeasure(LinearLayout.java:721)         08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.View.measure(View.java:30133)                           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.ScrollView.measureChildWithMargins(ScrollView.java:1552)                                                                                                                      08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.FrameLayout.onMeasure(FrameLayout.java:194)           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.ScrollView.onMeasure(ScrollView.java:475)             08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.View.measure(View.java:30133)                           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7081)  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.FrameLayout.onMeasure(FrameLayout.java:194)           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.View.measure(View.java:30133)                           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.constraintlayout.widget.ConstraintLayout$Measurer.measure(ConstraintLayout.java:811)                                                                                                08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.constraintlayout.core.widgets.ConstraintWidgetContainer.measure(ConstraintWidgetContainer.java:632)                                                                                 08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.constraintlayout.core.widgets.analyzer.Direct.verticalSolvingPass(Direct.java:452)                                                                                                  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.constraintlayout.core.widgets.analyzer.Direct.solveVerticalMatchConstraint(Direct.java:750)                                                                                         08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.constraintlayout.core.widgets.analyzer.Direct.verticalSolvingPass(Direct.java:503)                                                                                                  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.constraintlayout.core.widgets.analyzer.Direct.verticalSolvingPass(Direct.java:542)                                                                                                  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.constraintlayout.core.widgets.analyzer.Direct.solvingPass(Direct.java:224)                                                                                                          08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.constraintlayout.core.widgets.ConstraintWidgetContainer.layout(ConstraintWidgetContainer.java:693)                                                                                  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.constraintlayout.core.widgets.analyzer.BasicMeasure.solveLinearSystem(BasicMeasure.java:160)                                                                                        08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.constraintlayout.core.widgets.analyzer.BasicMeasure.solverMeasure(BasicMeasure.java:291)                                                                                            08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.constraintlayout.core.widgets.ConstraintWidgetContainer.measure(ConstraintWidgetContainer.java:120)                                                                                 08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.constraintlayout.widget.ConstraintLayout.resolveSystem(ConstraintLayout.java:1594)                                                                                                  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.constraintlayout.widget.ConstraintLayout.onMeasure(ConstraintLayout.java:1708)                                                                                                      08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.View.measure(View.java:30133)                           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7081)  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.FrameLayout.onMeasure(FrameLayout.java:194)           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at androidx.appcompat.widget.ContentFrameLayout.onMeasure(ContentFrameLayout.java:145)                                                                                                          08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.View.measure(View.java:30133)                           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7081)  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1608)                                                                                                                 08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.measureVertical(LinearLayout.java:878)   08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.onMeasure(LinearLayout.java:721)         08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.View.measure(View.java:30133)                           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7081)  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.FrameLayout.onMeasure(FrameLayout.java:194)           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.View.measure(View.java:30133)                           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7081)  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1608)                                                                                                                 08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.measureVertical(LinearLayout.java:878)   08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.LinearLayout.onMeasure(LinearLayout.java:721)         08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.View.measure(View.java:30133)                           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7081)  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.widget.FrameLayout.onMeasure(FrameLayout.java:194)           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at com.android.internal.policy.DecorView.onMeasure(DecorView.java:895)  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.View.measure(View.java:30133)                           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:6280)     08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:4525)   08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:4891)  08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:4177)        08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:12647)                                                                                                                     08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.Choreographer$CallbackRecord.run(Choreographer.java:2088)                                                                                                                       08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.Choreographer$CallbackRecord.run(Choreographer.java:2097)                                                                                                                       08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.Choreographer.doCallbacks(Choreographer.java:1572)      08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.Choreographer.doFrame(Choreographer.java:1453)          08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:2051)                                                                                                            08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.os.Handler.handleCallback(Handler.java:1029)                 08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.os.Handler.dispatchMessage(Handler.java:107)                 08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.os.Looper.loopOnce(Looper.java:274)                          08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.os.Looper.loop(Looper.java:369)                              08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at android.app.ActivityThread.main(ActivityThread.java:10085)           08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at java.lang.reflect.Method.invoke(Native Method)                       08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:616)                                                                                                            08-16 20:05:33.243 28975 28975 E AutoBOTApp:    at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1137)   
+Run if [ -f "gradle/wrapper/gradle-wrapper.jar" ]; then
+  if [ -f "gradle/wrapper/gradle-wrapper.jar" ]; then
+    ./gradlew assembleDebug --stacktrace --no-daemon
+  else
+    echo "⚠️ wrapper jar missing, using gradle directly"
+    gradle assembleDebug --stacktrace --no-daemon
+  fi
+  shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+  env:
+    GRADLE_VERSION: 8.5
+    JAVA_VERSION: 17
+    JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-8/x64
+    JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-8/x64
+    GRADLE_ACTION_ID: gradle/actions/setup-gradle
+    GRADLE_USER_HOME: /home/runner/.gradle
+    GRADLE_BUILD_ACTION_SETUP_COMPLETED: true
+    GRADLE_BUILD_ACTION_CACHE_RESTORED: true
+    DEVELOCITY_INJECTION_INIT_SCRIPT_NAME: gradle-actions.inject-develocity.init.gradle
+    DEVELOCITY_INJECTION_CUSTOM_VALUE: gradle-actions
+    GITHUB_DEPENDENCY_GRAPH_ENABLED: false
+    ANDROID_HOME: /usr/local/lib/android/sdk
+    ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.5/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:dataBindingMergeDependencyArtifactsDebug
+> Task :app:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:parseDebugLocalResources
+> Task :app:checkDebugAarMetadata
+> Task :app:dataBindingGenBaseClassesDebug
+> Task :app:mapDebugSourceSetPaths
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:javaPreCompileDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets
+> Task :app:desugarDebugFileDependencies
+> Task :app:checkDebugDuplicateClasses
+
+> Task :app:configureCMakeDebug[arm64-v8a]
+[CXX5304] This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+[CXX5304] This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+
+> Task :app:processDebugManifestForPackage
+> Task :app:mergeLibDexDebug
+> Task :app:buildCMakeDebug[arm64-v8a]
+> Task :app:configureCMakeDebug[x86_64]
+> Task :app:processDebugResources
+> Task :app:buildCMakeDebug[x86_64]
+> Task :app:mergeDebugJniLibFolders
+> Task :app:mergeDebugNativeLibs
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:stripDebugDebugSymbols
+> Task :app:mergeExtDexDebug
+
+e: file:///home/runner/work/AutoBOT/AutoBOT/app/src/main/java/com/autobot/app/ui/tasks/MonitorViewModel.kt:12:30 Unresolved reference: TaskMode
+> Task :app:compileDebugKotlin FAILED
+e: file:///home/runner/work/AutoBOT/AutoBOT/app/src/main/java/com/autobot/app/ui/tasks/MonitorViewModel.kt:44:15 Conflicting declarations: public companion object, public companion object
+e: file:///home/runner/work/AutoBOT/AutoBOT/app/src/main/java/com/autobot/app/ui/tasks/MonitorViewModel.kt:124:5 Only one companion object is allowed per class
+e: file:///home/runner/work/AutoBOT/AutoBOT/app/src/main/java/com/autobot/app/ui/tasks/MonitorViewModel.kt:124:15 Conflicting declarations: public companion object, public companion object
+e: file:///home/runner/work/AutoBOT/AutoBOT/app/src/main/java/com/autobot/app/ui/tasks/MonitorViewModel.kt:157:32 Unresolved reference: LOG_MAX_LINES
+gradle/actions: Writing build results to /home/runner/work/_temp/.gradle-actions/build-results/__run_4-1786886979351.json
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:compileDebugKotlin'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.java:148)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:282)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:146)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:134)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:80)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:463)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:380)
+	at org.gradle.execution.plan.DefaultPlanExecutor.process(DefaultPlanExecutor.java:116)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.executeWithServices(DefaultTaskExecutionGraph.java:138)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.execute(DefaultTaskExecutionGraph.java:123)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:35)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:51)
+	at org.gradle.execution.BuildOperationFiringBuildWorkerExecutor$ExecuteTasks.call(BuildOperationFiringBuildWorkerExecutor.java:54)
+	at org.gradle.execution.BuildOperationFiringBuildWorkerExecutor$ExecuteTasks.call(BuildOperationFiringBuildWorkerExecutor.java:43)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+	at org.gradle.execution.BuildOperationFiringBuildWorkerExecutor.execute(BuildOperationFiringBuildWorkerExecutor.java:40)
+	at org.gradle.internal.build.DefaultBuildLifecycleController.lambda$executeTasks$10(DefaultBuildLifecycleController.java:313)
+	at org.gradle.internal.model.StateTransitionController.doTransition(StateTransitionController.java:266)
+	at org.gradle.internal.model.StateTransitionController.lambda$tryTransition$8(StateTransitionController.java:177)
+	at org.gradle.internal.work.DefaultSynchronizer.withLock(DefaultSynchronizer.java:44)
+	at org.gradle.internal.model.StateTransitionController.tryTransition(StateTransitionController.java:177)
+	at org.gradle.internal.build.DefaultBuildLifecycleController.executeTasks(DefaultBuildLifecycleController.java:304)
+	at org.gradle.internal.build.DefaultBuildWorkGraphController$DefaultBuildWorkGraph.runWork(DefaultBuildWorkGraphController.java:220)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:264)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:128)
+	at org.gradle.composite.internal.DefaultBuildController.doRun(DefaultBuildController.java:181)
+	at org.gradle.composite.internal.DefaultBuildController.access$000(DefaultBuildController.java:50)
+	at org.gradle.composite.internal.DefaultBuildController$BuildOpRunnable.lambda$run$0(DefaultBuildController.java:198)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:80)
+	at org.gradle.composite.internal.DefaultBuildController$BuildOpRunnable.run(DefaultBuildController.java:198)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+	at org.gradle.workers.internal.DefaultWorkerExecutor$WorkItemExecution.waitForCompletion(DefaultWorkerExecutor.java:283)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.lambda$waitForItemsAndGatherFailures$2(DefaultAsyncWorkTracker.java:130)
+	at org.gradle.internal.Factories$1.create(Factories.java:31)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:336)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:319)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLock(DefaultWorkerLeaseService.java:324)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:126)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:92)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForAll(DefaultAsyncWorkTracker.java:78)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForCompletion(DefaultAsyncWorkTracker.java:66)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:256)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:29)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:26)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:47)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:68)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:233)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:216)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:199)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:166)
+	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:105)
+	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:59)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:56)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:56)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:67)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:37)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:41)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:74)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:50)
+	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:28)
+	at org.gradle.internal.execution.steps.CaptureStateAfterExecutionStep.executeDelegateBroadcastingChanges(CaptureStateAfterExecutionStep.java:100)
+	at org.gradle.internal.execution.steps.CaptureStateAfterExecutionStep.execute(CaptureStateAfterExecutionStep.java:72)
+	at org.gradle.internal.execution.steps.CaptureStateAfterExecutionStep.execute(CaptureStateAfterExecutionStep.java:50)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:40)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:29)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:179)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:70)
+	at org.gradle.internal.Either$Right.fold(Either.java:175)
+	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:59)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:68)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:46)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:25)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:36)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:22)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:91)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:55)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:55)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:37)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:65)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:76)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:37)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:108)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:55)
+	at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:71)
+	at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:45)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.executeWithNonEmptySources(SkipEmptyWorkStep.java:177)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.execute(SkipEmptyWorkStep.java:86)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.execute(SkipEmptyWorkStep.java:53)
+	at org.gradle.internal.execution.steps.RemoveUntrackedExecutionStateStep.execute(RemoveUntrackedExecutionStateStep.java:32)
+	at org.gradle.internal.execution.steps.RemoveUntrackedExecutionStateStep.execute(RemoveUntrackedExecutionStateStep.java:21)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:23)
+	at org.gradle.internal.execution.steps.CleanupStaleOutputsStep.execute(CleanupStaleOutputsStep.java:75)
+	at org.gradle.internal.execution.steps.CleanupStaleOutputsStep.execute(CleanupStaleOutputsStep.java:41)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringStep.java:66)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:66)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:38)
+	at org.gradle.internal.execution.steps.AssignWorkspaceStep.lambda$execute$0(AssignWorkspaceStep.java:32)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:293)
+	at org.gradle.internal.execution.steps.AssignWorkspaceStep.execute(AssignWorkspaceStep.java:30)
+	at org.gradle.internal.execution.steps.AssignWorkspaceStep.execute(AssignWorkspaceStep.java:21)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:37)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:27)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:47)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:34)
+	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:64)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:145)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:134)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:80)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:463)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:380)
+	at org.gradle.execution.plan.DefaultPlanExecutor.process(DefaultPlanExecutor.java:116)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.executeWithServices(DefaultTaskExecutionGraph.java:138)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.execute(DefaultTaskExecutionGraph.java:123)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:35)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:51)
+	at org.gradle.execution.BuildOperationFiringBuildWorkerExecutor$ExecuteTasks.call(BuildOperationFiringBuildWorkerExecutor.java:54)
+	at org.gradle.execution.BuildOperationFiringBuildWorkerExecutor$ExecuteTasks.call(BuildOperationFiringBuildWorkerExecutor.java:43)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+	at org.gradle.execution.BuildOperationFiringBuildWorkerExecutor.execute(BuildOperationFiringBuildWorkerExecutor.java:40)
+	at org.gradle.internal.build.DefaultBuildLifecycleController.lambda$executeTasks$10(DefaultBuildLifecycleController.java:313)
+	at org.gradle.internal.model.StateTransitionController.doTransition(StateTransitionController.java:266)
+	at org.gradle.internal.model.StateTransitionController.lambda$tryTransition$8(StateTransitionController.java:177)
+	at org.gradle.internal.work.DefaultSynchronizer.withLock(DefaultSynchronizer.java:44)
+	at org.gradle.internal.model.StateTransitionController.tryTransition(StateTransitionController.java:177)
+	at org.gradle.internal.build.DefaultBuildLifecycleController.executeTasks(DefaultBuildLifecycleController.java:304)
+	at org.gradle.internal.build.DefaultBuildWorkGraphController$DefaultBuildWorkGraph.runWork(DefaultBuildWorkGraphController.java:220)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:264)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:128)
+	at org.gradle.composite.internal.DefaultBuildController.doRun(DefaultBuildController.java:181)
+	at org.gradle.composite.internal.DefaultBuildController.access$000(DefaultBuildController.java:50)
+	at org.gradle.composite.internal.DefaultBuildController$BuildOpRunnable.lambda$run$0(DefaultBuildController.java:198)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:80)
+	at org.gradle.composite.internal.DefaultBuildController$BuildOpRunnable.run(DefaultBuildController.java:198)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+Caused by: org.jetbrains.kotlin.gradle.tasks.CompilationErrorException: Compilation error. See log for more details
+	at org.jetbrains.kotlin.gradle.tasks.TasksUtilsKt.throwExceptionIfCompilationFailed(tasksUtils.kt:20)
+	at org.jetbrains.kotlin.compilerRunner.GradleKotlinCompilerWork.run(GradleKotlinCompilerWork.kt:141)
+	at org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction.execute(GradleCompilerRunnerWithWorkers.kt:73)
+	at org.gradle.workers.internal.DefaultWorkerServer.execute(DefaultWorkerServer.java:63)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:66)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:62)
+	at org.gradle.internal.classloader.ClassLoaderUtils.executeInClassloader(ClassLoaderUtils.java:100)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.lambda$execute$0(NoIsolationWorkerFactory.java:62)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:44)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:41)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+	at org.gradle.workers.internal.AbstractWorker.executeWrappedInBuildOperation(AbstractWorker.java:41)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.execute(NoIsolationWorkerFactory.java:59)
+	at org.gradle.workers.internal.DefaultWorkerExecutor.lambda$submitWork$0(DefaultWorkerExecutor.java:170)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runExecution(DefaultConditionalExecutionQueue.java:187)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.access$700(DefaultConditionalExecutionQueue.java:120)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner$1.run(DefaultConditionalExecutionQueue.java:162)
+	at org.gradle.internal.Factories$1.create(Factories.java:31)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:264)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:128)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:133)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runBatch(DefaultConditionalExecutionQueue.java:157)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:126)
+	... 2 more
+
+
+BUILD FAILED in 37s
+34 actionable tasks: 34 executed
+Error: Process completed with exit code 1.
